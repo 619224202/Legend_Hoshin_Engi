@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="10" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="12">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1" tilecount="48" columns="8">
+  <image source="../测试图/tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="Player" tilewidth="27" tileheight="40" tilecount="1" columns="1">
+  <image source="../测试图/Player.png" width="27" height="40"/>
+ </tileset>
+ <layer id="1" name="块层 1" width="15" height="10">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAuYELDgw2gu2+wuBOXuwbSbfjcRAgDADFIAEE=
+  </data>
+ </layer>
+ <objectgroup id="3" name="propLayer">
+  <object id="5" name="prop1" x="127" y="124"/>
+  <object id="6" name="prop3" x="320" y="184"/>
+  <object id="7" name="prop2" x="382" y="93"/>
+  <object id="8" name="prop1" x="401" y="284"/>
+  <object id="10" name="text、" x="182" y="-16" width="80" height="16" visible="0">
+   <text fontfamily="Arial" wrap="1" color="#251e83">找到所有的道具把</text>
+  </object>
+ </objectgroup>
+ <objectgroup id="2" name="enemyLayer" opacity="0.5">
+  <object id="1" name="enemy4" gid="49" x="256" y="302" width="27" height="40"/>
+  <object id="2" name="enemy3" gid="49" x="354" y="204" width="27" height="40"/>
+  <object id="3" name="enemy2" gid="49" x="421" y="207" width="27" height="40"/>
+  <object id="4" name="enemy1" gid="49" x="66" y="141" width="27" height="40">
+   <properties>
+    <property name="hp" type="int" value="100"/>
+    <property name="moveX" type="int" value="10"/>
+    <property name="name" value="enemy"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

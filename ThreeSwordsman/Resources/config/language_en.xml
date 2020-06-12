@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language value="English">
+    <scene name="homepage">
+    	<text key="title">The Elegy</text>
+    	<text key="menu0">start game</text>
+		<text key="menu1">continue game</text>
+		<text key="menu2">setter</text>
+		<text key="menu3">exit game</text>
+		<text key="exitDia">do exit game?</text>
+    </scene>
+    <scene name="gameScene">
+    	<text key="title">The Elegy</text>
+    	<text key="menu0">start game</text>
+		<text key="menu1">continue game</text>
+		<text key="menu2">setter</text>
+		<text key="menu3">exit game</text>
+		<text key="exitDia">do exit game?</text>
+    </scene>
+    <scene name="shopScene">
+    	<text key="title">The Elegy</text>
+    	<text key="menu0">start game</text>
+		<text key="menu1">continue game</text>
+		<text key="menu2">setter</text>
+		<text key="menu3">exit game</text>
+		<text key="exitDia">do exit game?</text>
+    </scene>
+</language>

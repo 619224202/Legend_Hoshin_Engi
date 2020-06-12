@@ -1,0 +1,27 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<language value="English">
+    <scene name="homepage">
+        <text key="title">The Elegy</text>
+        <text key="menu0">开始游戏</text>
+        <text key="menu1">继续游戏</text>
+        <text key="menu2">设置</text>
+        <text key="menu3">退出游戏</text>
+        <text key="exitDia">是否退出游戏</text>
+    </scene>
+    <scene name="setter">
+        <text key="setTitle">设置</text>
+        <text key="setter1">声音开关</text>
+        <text key="setter2">音乐大小</text>
+        <text key="setter3">对话文字速度</text>
+        <text key="setter4">语言设置</text>
+    </scene>
+    <scene name="shopScene">
+        <text key="title">The Elegy</text>
+        <text key="menu0">start game</text>
+        <text key="menu1">continue game</text>
+        <text key="menu2">setter</text>
+        <text key="menu3">exit game</text>
+        <text key="exitDia">do exit game?</text>
+    </scene>
+</language>
